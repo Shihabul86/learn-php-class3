@@ -82,18 +82,13 @@
    
         //Task-6 
 
-        $arr = array("Jashim", "kamal", "Jamal", "Shamim Khan", "Monir", "Shohid", "Rejaul", "Hasi", "Boni", "Bobi");
+        $arr = array("Jashim", "kamal", "Jamal", "Shamim Khan", "Moni", "Shohid", "Rejaul", "Hasi", "Boni", "Bobi");
         
-       $length1 = strlen("Jashim");
-       $length2 = strlen("Kamal");
-       $length3 = strlen("Jamal");
-       $length4 = strlen("Shamim Khan");
-       $length5 = strlen("Monir");
-       $length6 = strlen("Shohid");
-       $length7 = strlen("Rejaul");
-       $length8 = strlen("Hasi");
-       $length9 = strlen("Boni");
-       $length10 = strlen("Bobi");
+       foreach($arr as $value){
+           if(strlen($value) >= 5){
+               echo $value . "<br>";
+           }
+       }
         
         
 
